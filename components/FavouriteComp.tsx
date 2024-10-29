@@ -55,6 +55,7 @@ const FavouriteComp = () => {
               <Image
                 src={cocktail.strDrinkThumb}
                 alt={cocktail.strDrink}
+                draggable={false}
                 width={300}
                 height={300}
                 className="w-full h-32 object-fit rounded bg-contain bg-top"

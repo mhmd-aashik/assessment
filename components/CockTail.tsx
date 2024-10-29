@@ -64,6 +64,7 @@ const CockTail = ({ cocktails }: Props) => {
                 src={cocktail.strDrinkThumb}
                 alt={cocktail.strDrink}
                 width={300}
+                draggable={false}
                 height={300}
                 className="w-full h-32 object-fit rounded bg-contain bg-top"
               />
