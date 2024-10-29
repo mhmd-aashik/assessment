@@ -7,7 +7,7 @@ const Navbar = () => {
   const pathname = usePathname();
   return (
     <div className="bg-gray-800 ">
-      <div className="container mx-auto">
+      <div className="container mx-auto px-1">
         <nav className="p-4 text-white flex items-center justify-between">
           <Link href="/" className="text-2xl font-bold">Cocktail Bar</Link>
 
