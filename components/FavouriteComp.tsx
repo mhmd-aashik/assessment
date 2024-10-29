@@ -60,18 +60,18 @@ const FavouriteComp = () => {
                 height={300}
                 className="w-full h-32 object-fit rounded bg-contain bg-top"
               />
-              <div className="flex w-full justify-between">
+              <div className="flex gap-1 items-center w-full justify-between">
                 <div>
-                  <h2 className="font-semibold mt-2">{cocktail.strDrink}</h2>
+                  <h2 className="font-semibold mt-2 text-sm">{cocktail.strDrink}</h2>
                 </div>
                 <button
-                  className="bg-red-500 text-white rounded p-2 h-fit px-4 mt-3"
+                  className="bg-red-500 text-white rounded p-2 h-fit px-2 py-1  mt-3"
                   onClick={() => {
                     dispatch(removeFavorite(cocktail));
                     deleted();
                   }}
                 >
-                  Remove
+                  👎
                 </button>
               </div>
             </div>
