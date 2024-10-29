@@ -64,7 +64,7 @@ const FavouriteComp = () => {
                   <h2 className="font-semibold mt-2">{cocktail.strDrink}</h2>
                 </div>
                 <button
-                  className="bg-blue-500 text-white rounded p-2 h-fit px-4 mt-3"
+                  className="bg-red-500 text-white rounded p-2 h-fit px-4 mt-3"
                   onClick={() => {
                     dispatch(removeFavorite(cocktail));
                     deleted();
